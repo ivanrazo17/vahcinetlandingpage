@@ -6,7 +6,6 @@
   --text-light: #ffffff;
   --text-dark: #B9B9B9;
   --max-width: 1200px;
-  --header-font: "Bebas Neue", sans-serif;
   --background-color: #1B1C1E;
   --currentnav-color: #4D4D4D;
   --leftAisle-color: #F9A537;
@@ -279,19 +278,18 @@ body {
   }
 }
 
-/* Add the class for applying animations */
 .slide-in-left {
-  animation: slide-in-left 0.5s forwards; /* Adjust duration as needed */
+  animation: slide-in-left 0.5s forwards; 
 }
 
 .slide-in-right {
-  animation: slide-in-right 0.5s forwards; /* Adjust duration as needed */
+  animation: slide-in-right 0.5s forwards; 
 }
 
 .slide-in-top {
-  animation: slide-in-top 0.5s forwards; /* Adjust duration as needed */
+  animation: slide-in-top 0.5s forwards; 
 }
 
 .slide-in-bottom {
-  animation: slide-in-bottom 0.5s forwards; /* Adjust duration as needed */
+  animation: slide-in-bottom 0.5s forwards; 
 }
