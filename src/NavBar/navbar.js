@@ -9,8 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const link = item.querySelector("a");
         const href = link.getAttribute("href"); // Get the href attribute of the link
 
+        // Extract the last part of the href that includes .html
+        const hrefLastPart = href.slice(href.lastIndexOf('/') + 1); // Get the last part of the href
+
         // Check if the href matches the current page
-        if (href === currentPage) {
+        if (hrefLastPart === currentPage) {
             item.classList.add('active'); // Add active class to the current nav item
         }
 
