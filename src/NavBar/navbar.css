@@ -1,0 +1,64 @@
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--text-light);
+    background-color: var(--background-color);
+    padding: 4rem 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+  
+a {
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 1.75rem;
+    color: var(--text-light);
+}
+.navlinks {
+    width: 31.25rem;
+    height: 2.75rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.25rem;
+    margin: 0;                     
+    padding: 0;
+    border-radius: 0.313rem;
+    background-color: var(--primary-color);
+}
+  
+.navstyle {
+    width: 6rem;
+    height: 1.75rem;
+    background-color: var(--defaultnav-color);
+    color: var(--text-light);
+    border-radius: 0.313rem;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+  
+.navstyle:hover {
+    background-color: var(--hovernav-color); 
+    color: var(--text-dark);
+}
+  
+.navstyle.active {
+    background-color: var(--currentnav-color);
+    color: var(--text-light); 
+}
+  
+.navstyle.active:hover {
+    background-color: var(--currentnav-color);
+    color: var(--text-light);
+}
+  
