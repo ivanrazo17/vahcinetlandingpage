@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VAHCINET Documentation</title>
+        <link rel="stylesheet" href="./documentation.css">
+        <link rel="stylesheet" href="../NavBar/navbar.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "omYUnYGFasCAo54Sb",
+            });
+        })();
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div class="mobile-menu">
+                <img src="../../assets/mobilemenu.svg" alt="Menu" id="mobile-menu-icon" />
+            </div>
+            <ul class="navlinks" id="nav-links">
+                <li class="navstyle"><a href="../../index.html">Home</a></li>
+                <li class="navstyle"><a href="../Features/features.html">Features</a></li>
+                <li class="navstyle"><a href="../Download/download.html">Download</a></li>
+                <li class="navstyle"><a href="./documentation.html">Documentation</a></li>  
+            </ul>
+            <div class="overlay" id="overlay"></div> <!-- Overlay -->
+        </nav>
+
+        <div class="documentation-container">
+            <div class="header-container">
+                <div>
+                    <img id="logo" src="../../favicon.ico" alt="logo">
+                </div>
+                <div>
+                    <h1 id="title-name">DOCUMENTATION</h1>
+                </div> 
+            </div>
+
+            <div class="documentation-spacing">
+                <div class="accounts-container">
+                    <div class="linkedin">
+                        <button id="linkedinBtn">
+                            <img src="../../assets/linkedin.svg" alt="linkedin">
+                            <div class="btn-spacing">
+                                <h1>Visit my LinkedIn</h1>
+                                <h2>Let's Connect!</h2>
+                            </div> 
+                        </button>
+                    </div>
+                    <div class="portfolio">
+                        <button id="portfolioBtn">
+                            <img src="../../assets/portfolio.svg" alt="portfolio">
+                            <div class="btn-spacing">
+                                <h1>Visit my Portfolio</h1>
+                                <h2>Find more of my projects</h2>
+                            </div> 
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="document-container2">
+                    <div class="document">
+                        <button id="documentBtn">
+                            <img src="../../assets/ieee.svg" alt="document">
+                            <div class="btn-spacing">
+                                <h1>View our Document</h1>
+                                <h2>IEEE Conference Paper</h2>
+                            </div> 
+                        </button>
+                    </div>
+                    <div class="repository">
+                        <button id="repositoryBtn">
+                            <img src="../../assets/github.svg" alt="repository">
+                            <div class="btn-spacing">
+                                <h1>VAHCINET Code</h1>
+                                <h2>Continue our mission!</h2>
+                            </div> 
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <h2>You can get in touch with us through this form below.</h2>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email" required>
+                    
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message" placeholder="Your message here" required>
+                    
+                    <button type="submit" id="submit">Send Message</button>
+                </form>
+                <div id="responseMessage" style="display: none; margin-top: 1rem;">Message sent. We'll get back to you!</div>
+            </div>
+            
+        </div>
+    </body>
+    <script src="../NavBar/navbar.js"></script>
+    <script src="./documentation.js"></script>
+</html>
