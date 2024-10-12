@@ -39,7 +39,7 @@ body {
   font-style: normal;
   color: var(--text-light);
   background-color: var(--background-color);
-  padding: 4rem 0rem;
+  padding: 8rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
