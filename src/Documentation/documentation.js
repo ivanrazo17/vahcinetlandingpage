@@ -45,7 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.querySelector("form");
-    
+    const serviceID = "service_zgwoci9";
+    const templateID = "template_67dysdd";
+
     form.addEventListener("submit", function(event) {
         event.preventDefault();
 
@@ -55,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
             message: document.getElementById('message').value
         };
 
-        emailjs.send("service_zgwoci9", "template_67dysdd", parms)
+        emailjs.send(serviceID, templateID, parms)
             .then(function(response) {
                 alert("Message sent. We'll get back to you!");
                 form.reset();
