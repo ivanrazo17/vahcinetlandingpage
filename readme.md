@@ -1,6 +1,6 @@
 # VAHCINET
 
-Welcome to VAHCINET! This is the landing page design of VAHCINET. You can view the source code of VAHCINET System [here](https://github.com/ivanrazo17/vahcinet2). 
+Welcome to VAHCINET! This is a Voice Activated Human-Computer Interaction system powered by a Convolutional Neural Network (CNN) algorithm. Designed to facilitate seamless computer navigation through voice commands, VAHCINET utilizes custom datasets trained in EdgeImpulse, effectively classifying 34 HCI-based voice commands.
 
 ## Project Overview
 
