@@ -61,3 +61,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.querySelector('nav'); 
+    const threshold = 50;
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > threshold) {
+            nav.classList.add('scrolled'); 
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+});
+
+

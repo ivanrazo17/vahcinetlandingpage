@@ -268,7 +268,8 @@ body {
 
 @media (max-width: 768px) {
   body {
-    height: auto; 
+    height: auto;
+    margin-top: 4rem; 
     min-height: 100vh; 
     box-sizing: border-box;
     padding: 0rem 1rem;

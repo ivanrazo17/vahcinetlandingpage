@@ -37,7 +37,7 @@ body {
   font-style: normal;
   color: var(--text-light);
   background-color: var(--background-color);
-  padding: 4rem 0rem;
+  padding: 8rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,6 +319,7 @@ body {
 @media (max-width: 768px) {
   body {
     height: auto;
+    margin-top: 4rem;
     min-height: 100vh; 
     box-sizing: border-box; 
     padding: 0rem 1rem;

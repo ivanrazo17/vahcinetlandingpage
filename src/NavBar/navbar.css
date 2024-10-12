@@ -63,6 +63,24 @@ a:not(#link) {
     z-index: 1;
 }
 
+nav {
+    position: fixed; /* Keeps the navbar at the top */
+    top: 0; /* Aligns the navbar to the top */
+    width: 100%; /* Fills the width of the viewport */
+    z-index: 3; /* Ensures it is on top of other elements */
+    display: flex;
+    justify-content: center; /* Centers the navbar content */
+    align-items: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.scrolled {
+    background-color: var(--primary-color); /* Background color when scrolled */
+}
+
+
+
 @media (max-width: 768px) {
     #mobile-menu-icon {
         display: block; 
